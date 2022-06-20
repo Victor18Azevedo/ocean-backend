@@ -5,7 +5,12 @@ app.get("/", function (req, res) {
   res.send("Hello World");
 });
 
-const herois = ["Mulher Maravilha", "Capita Marvel", "Homem de Ferro"];
+const herois = [
+  "Mulher Maravilha",
+  "Capita Marvel",
+  "Homem de Ferro",
+  "Batman",
+];
 
 //End Point GET /herois
 app.get("/herois", function (req, res) {
